@@ -1,0 +1,22 @@
+body {font-family: Arial, Helvetica, sans-serif; background-color: green;}
+.trioImage{position: relative;
+max-width: 200mm; max-height: 200mm;
+left: 200mm;}
+.catchpic{max-width: 150mm;}
+.browns{max-width: 150mm;}
+.superbowl{max-width: 150mm;}
+h1{text-align: center;
+text-size-adjust: 120mm;
+background-color: brown;}
+h2{color: blue; background-color: red; text-align: center;
+    text-size-adjust: 120mm;}
+h3{background-color:rgb(46, 28, 4); color:darkorange; text-align: center;
+    text-size-adjust: 120mm;}
+h4{background-color: blue; color: goldenrod; text-align: center;
+    text-size-adjust: 120mm;}
+hr{height: 10px; background-color: white; }
+p2{color: white; font-size: 10mm; text-align: end;}
+p6{color: white; font-size: 10mm; text-align: right;}
+p3{color: white; font-size: 10mm;}
+p4{color: white; font-size: 10mm;}
+p5{color: white; font-size: 10mm;}
