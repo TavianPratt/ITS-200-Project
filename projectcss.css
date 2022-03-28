@@ -1,19 +1,46 @@
+<!--This is the css style sheet for the background and layout of the project on Odell Beckham Jr and his time with 3 teams in the NFL-->
+
+<!--This line of code makes the font Arial and if not Arial then Helvetica, etc.-->
+<!--This line of code also changes the background color of the webpage to green-->
 body {font-family: Arial, Helvetica, sans-serif; background-color: green;}
+
+<!--This line of code makes the first image in a relative position-->
+<!--The image of Odell Beckham Jr. on all 3 teams has a width and height of 200mm. It is also shifted to the left 200mm.-->
 .trioImage{position: relative;
 max-width: 200mm; max-height: 200mm;
 left: 200mm;}
+
+<!--The other images in the webpage (Giants, Browns and Rams) have the same settings above but the max width is 150mm.--> 
 .catchpic{max-width: 150mm;}
 .browns{max-width: 150mm;}
 .superbowl{max-width: 150mm;}
+
+<!--This line of code demonstrates the layout of the text within the first heading that talks about Odell Beckham Jr's time in the NFL with the Cleveland Browns-->
+<!--The text size is also 120mm and the background within this heading is brown which is the team color of the Cleveland Browns-->
 h1{text-align: center;
 text-size-adjust: 120mm;
 background-color: brown;}
+
+<!--The text within the second heading will be 120mm and the text will also be centered like the text is in the previous heading-->
+<!--The color of the text is blue while the background color of the second heading is red since this section of the webpage will associate with the NY Giants-->
 h2{color: blue; background-color: red; text-align: center;
     text-size-adjust: 120mm;}
+
+<!--The text within the third heading will also be 120mm and centered-->
+<!--This text will be dark orange for the cleveland browns and the background of this heading will be a brown with the amount of red being greater in concentration
+than green or blue-->
 h3{background-color:rgb(46, 28, 4); color:darkorange; text-align: center;
     text-size-adjust: 120mm;}
+
+<!--This text within the fourth heading will also be 120mm and centered-->
+<!--The background color will be blue and the text will be golden yellow to represent the LA Rams-->
 h4{background-color: blue; color: goldenrod; text-align: center;
     text-size-adjust: 120mm;}
+
+<!--This section of the code goes through the overall background of the webpage. This aspect of the code will make the webpage look like a football field.-->
+<!--This section deals with the color of the numbers that would be labeled on a real football field and the yard numbers will be located on the right and end sides
+of the program-->
+<!--The values of the football field yards will be 10mm big-->
 hr{height: 10px; background-color: white; }
 p2{color: white; font-size: 10mm; text-align: end;}
 p6{color: white; font-size: 10mm; text-align: right;}
