@@ -21,16 +21,16 @@
             
         var games, yard1, total, season1, season2,  season3, season4, season5;
             var yard2, yard3, yard4, yard5, yards;
-            season1
-            season2
-            season3
-            season4
-            season5
-            yard1
-            yard2
-            yard3
-            yard4
-            yard5
+            season1=12;
+            season2=15;
+            season3=16;
+            season4=4;
+            season5=12;
+            yard1=1305;
+            yard2=1450;
+            yard3=1367;
+            yard4=302;
+            yard5=1052;
             games = season1+ season2+ season3+ season4+ season5;
             yards = yard1+yard2+yard3+yard4+yard5;
 
@@ -63,13 +63,15 @@
         <script>
         
             
-        var games, yard1, total, season1, season2,yard2;
-            var yard2, yard3, yard4, yard5, yards;
-            season1
-            season2
+        var games, yard1, total, season1, season2, season3, yard2;
+            var yard2, yard3, yards;
+            season1=16;
+            season2=7;
+            season3=6;
             
-            yard1
-            yard2
+            yard1=1035;
+            yard2=319;
+            yard3=232;
            
             games = season1+ season2+ season3+ season4+ season5;
             yards = yard1+yard2+yard3+yard4+yard5;
@@ -99,9 +101,9 @@
             
             var games, yard1, total, season1;
           
-            season1
+            season1=8;
             
-            yard1
+            yard1=305;
             
             games = season1+ season2+ season3+ season4+ season5;
             yards = yard1+yard2+yard3+yard4+yard5;
