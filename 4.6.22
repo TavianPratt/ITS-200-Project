@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+    <head>
+        <meta charset = "utf-8">
+        <title>Project title </title>
+    </head>
+
+    <body>
+    
+
+        <link rel="stylesheet" href="projectcss.css">
+        <h1>Career Stats of NFL Player</h1>
+        <p><img src="odell-beckham-jr-giants-browns-rams-011922-getty-ftr_1iqyk68deo2cc14vi35pcrmyc3.png" class="trioImage" alt="career pic"> </p>
+        <p>career stats will be entered here </p>
+        <p2>20</p2>
+        <hr>
+        <p6>20</p6>
+        <h2>Players first team </h2>
+        <script>
+        
+            
+        var games, yard1, total, season1, season2,  season3, season4, season5;
+            var yard2, yard3, yard4, yard5, yards;
+            season1
+            season2
+            season3
+            season4
+            season5
+            yard1
+            yard2
+            yard3
+            yard4
+            yard5
+            games = season1+ season2+ season3+ season4+ season5;
+            yards = yard1+yard2+yard3+yard4+yard5;
+
+            total= yards/games;
+
+              total= yards/games;
+          
+             
+              document.write("For his career with the Giants his total yards per game: " + total)
+              </script>
+              <ul>
+                <li>years with giants</li>
+                <ul>
+                    <li>2014</li>
+                    <li>2015</li>
+                    <li>2016</li>
+                    <li>2017</li>
+                    
+                </ul>
+                
+            </ul>
+        <P><img src="giants-catch.jpg" class="catchpic" alt="odell catch "></P>
+        <p>
+           
+        </p>
+        <p3>30</p3>
+        <hr>
+        <p3>30</p3>
+        <h3>players second team </h3>
+        <script>
+        
+            
+        var games, yard1, total, season1, season2,yard2;
+            var yard2, yard3, yard4, yard5, yards;
+            season1
+            season2
+            
+            yard1
+            yard2
+           
+            games = season1+ season2+ season3+ season4+ season5;
+            yards = yard1+yard2+yard3+yard4+yard5;
+
+            total= yards/games;
+           
+            document.write("For his career with the Browns his total yards per game: " + total)
+            </script>
+            <ul>
+                <li>years with Cleveland Browns</li>
+                <ul>
+                    <li>2019</li>
+                    <li>2020</li>
+
+                    
+                </ul>
+                
+            </ul>
+        <p><img src="odell-beckham-jr-returns-browns-cleveland-ap-092421_09242021.jpg" class="browns" alt=""></p>
+        <p></p>
+        <p4>40</p4>
+        <hr>
+        <p4>40</p4>
+        <h4>players latest team </h4>
+        <script>
+        
+            
+            var games, yard1, total, season1;
+          
+            season1
+            
+            yard1
+            
+            games = season1+ season2+ season3+ season4+ season5;
+            yards = yard1+yard2+yard3+yard4+yard5;
+
+            total= yards/games;
+    
+           
+            document.write("For his career with the Rams his total yards per game: " + total)
+        </script>
+        <ul>
+            <li>years with giants</li>
+            <ul>
+                <li>2021</li>
+            </ul>
+            
+        </ul>
+        <p><img src="a2da170c-9d53-43a2-bf71-6aeb2d14d1bc-GTY_1370412501.webp" class="superbowl" alt="rams pic"></p>
+        <p5>50</p5>
+        <hr>
+        <p5>50</p5>
+        <br>
+
+        <a class="site"  href="https://www.pro-football-reference.com/players/B/BeckOd00.htm"> 
+            Stats sites
+        </a>
+
+
+    </body>
+   
+    
+</html>
