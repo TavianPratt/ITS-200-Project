@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+
+    <head>
+        <meta charset = "utf-8">
+        <title>ITS 200 final exam </title>
+    </head>
+
+    <body>
+    
+
+        <link rel="stylesheet" href="projectcss.css">
+        <h1>Career Stats of Odell Beckham Jr.</h1>
+       <div class="test">
+          
+        <p><img src="odell-beckham-jr-giants-browns-rams-011922-getty-ftr_1iqyk68deo2cc14vi35pcrmyc3.png" class="trioImage" alt="career pic"> </p>
+        <!--<p> <img src="browns2.jpg" class="brownspic2" alt="2ndbrowns" ></p>
+        <p><img src="giants.jpg" class="giants2" alt="2ndgiantspic"></p>-->
+       </div>
+        <p2>20</p2>
+        <hr>
+        <p2>20</p2>
+        <h2>New York Giants</h2>
+        <div class="one">
+            <ul>
+                <li>years with giants</li>
+                <ul>
+                    <li>2014</li>
+                    <li>2015</li>
+                    <li>2016</li>
+                    <li>2017</li>
+                    
+                </ul>
+                
+            </ul>
+    <h5>
+       <script>
+         var stat = prompt("enter the the season with the giants for the stats you would like to see: ")
+            
+        var games, yard1, total, season1, season2,  season3, season4, season5;
+            var yard2, yard3, yard4, yard5, yards;
+            season1=12;
+            season2=15;
+            season3=16;
+            season4=4;
+            season5=12;
+            yard1=1305;
+            yard2=1450;
+            yard3=1367;
+            yard4=302;
+            yard5=1052;
+
+            if(stat =="2014"){
+                games = season1+ season2+ season3+season4+season5;
+                yards = yard1+yard2+yard3+yard4+yard5;
+
+                total= yard1/season1;
+            
+                document.write("For his 2014 season with the giants his total average yards per game: " + total)
+
+
+            }
+            else if(stat=="2015"){
+                total= yard2/season2;
+            
+                document.write("For his 2015 season with the giants his total average yards per game: " + total)
+
+            }
+            else if(stat=="2016"){
+                total= yard3/season3;
+            
+                document.write("For his 2015 season with the giants his total average yards per game: " + total)
+
+            }
+            else if(stat=="2017"){
+                total= yard4/season4;
+            
+                document.write("For his 2015 season with the giants his total average yards per game: " + total)
+
+            }
+        else{
+            games = season1+ season2+ season3+season4+season5;
+                yards = yard1+yard2+yard3+yard4+yard5;
+
+                total= yards/games;
+
+                document.write("For his entire career with the NY giants his total average yards per game: " + total)
+
+                
+        } 
+              </script>
+            </h5>
+                
+            </ul>
+            <p>Throughout his time with the giants he was named to the NFL probowl for his first three seasons.</p>
+            <p>the giants during that time would go on to make one playoff apearance in the 2016 season</p>
+            <h5>
+            <script>
+                var playoff, yard1;
+                playoff=1;
+                yard1=28;
+
+                total=yard1/playoff
+                document.write(" during that playoff game he would catch for a total of " +total+ " yards. ")
+
+            </script>
+            
+            <p>Throughout his time with the New York Giants, Odell Beckham Jr. was named to the probowl for his first 3 seasons. <br> 
+                Odell Beckham Jr. gained a lot of experiences and he was able to create bonds and work as a team professionally. <br> 
+                The New York Giants traded Odell Beckham Jr. to the Cleveland Browns after 5 seasons, and it had nothing to do with his <br> 
+                statistics according to the New York Post. The Giants wanted less energy within the team as the New York Giants had trouble <br> 
+                keeping up with Odell Beckham Jr. (par.3).</p>
+
+            <p> When it comes to Odell Beckham Jr's performance with the New York Giants, Odell Beckham Jr. suffered a <br> hamstring injury and a left ankle injury that caused
+                Odell Beckham Jr to miss multiple games during the <br> 2014 and 2017 NFL seasons. Odell Beckham Jr also missed some games because of a quad injury, which caused him to <br>
+                miss the last few games of the 2018 NFL season (Sporting News, par.5). When looking at Odell Beckham Jr's <br> statistics with the New York Giants, his catch percentage
+                range was between 60 and 70 percent, <br> but Odell had a better catch percentage when he first started with the New York Giants rather than before he was
+                <br> traded to the Cleveland Browns. Odell Beckham Jr's total yardage with the New York Giants was highest when he <br> first started with the team. The statistics
+                that covers his yardage total in rushing yards could be skewed as he did <br> suffer injuries that put him out for most of multiple seasons. Odell Beckham Jr. 's yards
+                per game was once again really <br> high when he began his career with the New York Giants, but his yards per game stayed fairly even mainly within the 80's.
+            </h5>
+       <!-- <P><img src="giants-catch.jpg" class="catchpic" alt="odell catch "></P>-->
+            </div>
+        <p2>30</p2>
+        <hr>
+        <p2>30</p2>
+        <h3>Cleveland Browns </h3>
+        <div class="two">
+            <ul>
+                <li>years with Cleveland Browns</li>
+                <ul>
+                    <li>2019</li>
+                    <li>2020</li>
+                    <li>2021 (traded)</li>
+
+                    
+                </ul>
+                
+            </ul>
+        <h5>
+            <script>
+            var stat = prompt("Enter the season for the Cleveland Browns for the stats which you want to see: ")
+            
+            var games, yard1, total, season1, season2,yard2;
+                var yard2, yard3, yards;
+            var test = true;
+                season1=16;
+                season2=7;
+                season3=6;
+                
+                yard1=1035;
+                yard2=319;
+                yard3=232;
+       
+            if(stat =="2019"){
+                games = season1+ season2+ season3+season4+season5;
+                yards = yard1+yard2+yard3+yard4+yard5;
+
+                total= yard1/season1;
+            
+                document.write("For his 2019 season with the Cleveland Browns his total average yards per game: " + total)
+
+
+            }
+            else if(stat=="2020"){
+                total= yard2/season2;
+            
+                document.write("For his 2020 season with the Cleveland Browns his total average yards per game: " + total)
+
+            }
+            else if(stat=="2021"){
+                total= yard3/season3;
+            
+                document.write("For his 2021 season with the Cleveland Browns his total average yards per game: " + total)
+
+            }
+        else{
+                games = season1+ season2+ season3;
+                yards = yard1+yard2+yard3;
+
+                document.write("test")
+
+                total= yards/games;
+        }
+                </script>
+            </h5>
+           
+           <p> During his time with the Browns, Odell Beckham Jr. did not participate in the probowl. </p>
+            <p> The Browns participated in the playoffs at the end of the 2020 season, but Odell Beckham Jr. had a torn ACL. </p>
+
+            <p>Throughout his time with the Cleveland Browns, Odell Beckham Jr. did not gain much experience. Odell Beckham Jr. <br> 
+            also did not get many opportunities with the Cleveland Browns. According to Joe Rivera, Odell Beckham Jr. was wide open many <br> 
+            times on the field, but the rest of the team never passed to him (Sporting News, par.8). Odell Beckham Jr. eventually had to <br> 
+            end his season with the Cleveland Browns because he tore his ACL. About halfway through his 2021 season with the Cleveland Browns, <br> 
+            Odell Beckham Jr. was released from the Cleveland Browns and he was traded to the Los Angeles Rams. Odell Beckham Jr. has been <br> 
+            wanting to play for an NFL team on the west coast, according to Sports News.</p>
+
+            <p>When looking at Odell Beckham Jr's performance with the Cleveland Browns, Odell's statistics may be skewed because the <br> 
+            Cleveland Browns did not give him a lot of opportunities with the ball during games. Odell Beckham Jr. was also out with and ACL injury. <br> 
+            Odell Beckham Jr's catch percentage with the Cleveland Browns from 2019 to 2021 was around 50 percent. Odell Beckham Jr's yardage <br> 
+            per game from 2019 to 2021 was also between 30 and 40 yards. When comparing Odell Beckham Jr's number of touchdowns with <br> 
+            the New York Giants and the Cleveland Browns, Odell Beckham Jr. scored 10 to 12 touchdowns for the New York Giants while Odell Beckham Jr. <br> 
+            only got to score 3 to 4 touchdowns for the Cleveland Browns. Odell Beckham Jr. also had 122 touches while he was playing for <br> 
+            the Cleveland Browns, which is lower than the total touches Odell Beckham Jr. had while he played for the New York Giants. <br>
+            While Odell Beckham Jr. played for the New York Giants, Odell Backham had 405 touches. Odell Beckham Jr's performance with <br> 
+            the Cleveland Browns stayed about the same between 2019 and 2021.</p>
+    </div>
+        <p></p>
+        <p2>40</p2>
+        <hr>
+        <p2>40</p2>
+        <h4>Los Angeles Rams </h4>
+       
+        <div class="three">
+        <ul>
+            <li>years with giants</li>
+            <ul>
+                <li>2021(Traded)</li>
+            </ul>
+                
+        </ul>
+        <h5>
+        <script>
+        
+       
+            var games, yard1, total, season1;
+          
+            season1=8;
+            
+            yard1=305;
+        
+    
+           
+            document.write("For his career with the Los Angeles Rams his total average yards per game: " + total)
+        
+    
+        </script>
+        </h5>
+       
+        <h5>
+        <p>Throughout his time with the Los Angeles Rams, Odell Beckham Jr. was able to play in the playoffs in the 2021 NFL season. <br>
+            Odell Beckham Jr. got hurt during the first quarter of the game and he tore his other ACL. The Los Angeles Rams also ended up <br>
+           winning Superbowl LVI, defeating the Cincinatti Bengals 20 to 23. Odell Beckham Jr. was traded to the Los Angeles Rams halfway <br>
+           through br the 2021 NFL season. According to Cole Thompson, Odell Beckham Jr. enjoys playing with the Los Angeles Rams and <br>
+           Odell Beckham Jr. would like to play for the Los Angeles Rams in the 2022 NFL season (Rams Digest, par. 2). Odell Beckham Jr. <br>
+           has been in surgery during the off season and he is expected to make a full recovery after tearing his other ACL during Super Bowl LVI.</p>
+
+        <p>When it comes to Odell Beckham Jr's performance so far with the Los Angeles Rams, it is early to tell if his performance will <br> 
+        improve with the Los Angeles Rams or not. Odell Beckham Jr. was traded to the Los Angeles Rams halfway through the 2021 season. <br> 
+        During the 2021 NFL season, Odell Beckham Jr. has a catch percentage of 56 percent. Odell Beckham Jr's yards per game is also a <br> 
+        little bit lower than what it was when he played for the New York Giants and the Cleveland Browns. Odell Beckham Jr's yards per game <br> 
+        is at about 38 yards. When it comes to Odell Beckham Jr's total touches, Odell Beckham Jr. had 27 touches while he has been playing for <br>
+        the Los Angeles Rams. It is expected that Odell Beckham Jr's overall performance with the Los Angeles Rams will continue to increase <br> 
+        as Odell Beckham Jr. will gain more experiences and become a better player.</p>
+    </h5>
+        <p> While he was with the Rams, Odell Beckham Jr. was able to play in the playoffs in the 2021 season. <br> Odell Beckham Jr. was not selected to participate in the playoffs. </p>
+        <p> Odell Beckham Jr. and the Rams went on to play in Superbowl LVI. However, Odell Beckham Jr. <br> got hurt during the first quarter of the game and he tore his other ACL. </p>
+        <p> The Rams also ended up winning Superbowl LVI, defeating the Bengals 20 to 23. </p>
+        <!--<p><img src="a2da170c-9d53-43a2-bf71-6aeb2d14d1bc-GTY_1370412501.webp" class="superbowl" alt="rams pic"></p>-->
+    </div>
+        <p2>50</p2>
+        <hr>
+        <p2>50</p2>
+        <h6>Odell compared to the rest of the league</h6>
+        <p> According to Sporting News, Odell Beckham Jr. is ranked 20 among the best wide receivers in the 2021 <br> 
+            season of the NFL (par.23). When it comes to determining whether Odell Beckham Jr.'s performance in the NFL is good, <br> 
+            Odell Beckham Jr.'s performance will be compared to Davante Adams of the Green Bay Packers, who is ranked 1 among the best wide receivers in the 2021 season of the NFL  <br> and Stefon Diggs of the Buffalo Bills, 
+             who is ranked 2 among the best wide receivers in the 2021 season of the NFL (par.5-6). Looking at Davante Adams's 2021 performance, <br>
+              Davante Adams has played all 17 games in the NFL season and he has a catch percentage of 72.8 percent. <br> 
+              Davante Adams also scored 11 touchdowns during the 2021 NFL season and he had about 97 yards per game throughout the 2021 season. <br>
+               When it comes to the 2021 NFL season performance of Stefon Diggs of the Buffalo Bills, he has a catch percentage of about 63 percent and. <br> 
+               Stefon Diggs also scored 10 touchdowns during the 2021 NFL season, which is 1 less touchdown than Davante Adams. Stefon Diggs also had about <br> 
+               72 yards per game during the 2021 season, which is 15 yards less than Stefon Diggs. In comparison to Odell Beckham Jr., Odell Beckham Jr. has a 53.7 catch percentage, <br>
+                which is about 19 percent less than Davante Adams and about 10 percent lower than Stefon Diggs. Odell Beckham Jr. scored 5 touchdowns during the 2021 NFL season, <br>
+             which is about half of the touchdowns that Davante Adams and Stefon Diggs scored durng the 2021 NFL season. Finally, when it comes to the yardage per game that Odell Beckham Jr. <br>
+                earned during the 2021 NFL season, Odell Beckham Jr. got an average of 38.4 yards per game during the 2021 NFL season while Davante Adams got 58.6 more yards than Odell Beckham Jr. <br>
+                and Stefon Diggs had double the amount of yards per game as Odell Beckham Jr., resulting in a gain of 33.6 yards per game.</p>
+    <hr>
+        <a class="site"  href="https://www.pro-football-reference.com/players/B/BeckOd00.htm"> 
+            Stats sites
+        </a>
+    
+
+
+    </body>
+   
+    
+</html>
