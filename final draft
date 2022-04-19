@@ -2,26 +2,59 @@
 
     <head>
         <meta charset = "utf-8">
+      
+<!--This project will be outlining the NFL statistics of Odell Beckham Jr when he played with the NY Giants and Cleveland Browns-->
+<!--We will also bring the statistics of Odell Beckham Jr's time on the LA Rams as he still is on the LA Rams-->
+<!--In the end, we will compare and contrast each portion of Odell Beckham Jr's time and performance on each NFL team-->
+<!--We will come up with a conclusion and a prediction in terms of how Odell Beckham Jr will perform in the future. We will also determine which team gave him his best performance-->
+      
+<!--This names the tab that the webpage is located on-->
+
         <title>ITS 200 final exam </title>
     </head>
 
     <body>
-    
+  <!--The code below links the css file that was created to the webpage. This includes the color and text layout of the webpage-->  
 
         <link rel="stylesheet" href="projectcss.css">
+        
+<!--This is the name of the first heading of the webpage where we will talk about Odell Beckham Jr's statistics throughout his time with the NFL on each team-->
+<!--This heading will have the biggest size on the webpage-->
+
         <h1>Career Stats of Odell Beckham Jr.</h1>
        <div class="test">
-          
+     
+<!--This command inserts a picture of  Odell Beckham Jr. on the New York Giants, Clevand Browns, and LA Rams. -->
+<!--Notice how this picture will be included in the paragraph-->
+<!--This image is going to be the first thing that the viewer will see once they insert the year of what statistics should be displayed for Odell Beckham Jr.'s time with the New York Giants and Cleveland Browns.-->
+<!--The JavaScript element was not added to display the statistics that Odell Beckham Jr. has for the Los Angeles Rams because he only played for the Los Angeles Rams late into the 2021 football season.--> 
+<!--The statistics that Odell Beckham Jr. has from the Los Angeles Rams are displayed as a constant.--> 
+<!--The statistics that are displayed in the website cover the total yards that Odell Beckham Jr. earned for each NFL season, starting in 2014.-->
+
         <p><img src="odell-beckham-jr-giants-browns-rams-011922-getty-ftr_1iqyk68deo2cc14vi35pcrmyc3.png" class="trioImage" alt="career pic"> </p>
         <!--<p> <img src="browns2.jpg" class="brownspic2" alt="2ndbrowns" ></p>
         <p><img src="giants.jpg" class="giants2" alt="2ndgiantspic"></p>-->
        </div>
+       
+<!--The webpage is going to look like a football field. The 20 indicates the 20 yard line on a football field on both sides-->
+
         <p2>20</p2>
         <hr>
         <p2>20</p2>
+        
+    <!--New York Giants Heading-->
+    
         <h2>New York Giants</h2>
+        
+     <!--This tool allows for everything within the New York Giants section to stay within the New York Giants section.--> 
+     
         <div class="one">
-            <ul>
+            
+    <!--This is the beginning paragraph of where the text will start and where statistics that compare Odell Beckham Jr's time with the NY Giants, Cleveland Browns, and LA Rams.-->      
+    <!--Listing the years of when Odell Beckham Jr. played for the New York Giants.-->
+    <!--This is an unordered list.-->
+    
+                <ul>
                 <li>years with giants</li>
                 <ul>
                     <li>2014</li>
@@ -33,9 +66,16 @@
                 
             </ul>
     <h5>
+   <!--JavaScript method that shows up when the website first opens.-->
+   <!--This element asks the viewer to state a year that Odell Beckham Jr. played for the New York Giants.-->
+   <!--Once the viewer inserts a year (2014-2017), the average yards per game of Odell Beckham Jr. within that year will show up.-->
+   
        <script>
          var stat = prompt("enter the the season with the giants for the stats you would like to see: ")
-            
+         
+     <!--The season variable covers the number of games the Odell Beckham Jr. played for the New York Giants per season.-->
+     <!--The yard variable covers the yards that Odell Beckham Jr. got per game during each NFL season for the New York Giants.-->
+      
         var games, yard1, total, season1, season2,  season3, season4, season5;
             var yard2, yard3, yard4, yard5, yards;
             season1=12;
@@ -48,6 +88,10 @@
             yard3=1367;
             yard4=302;
             yard5=1052;
+
+<!--These are the calculations that are carried out depending on what year the viewer inputs into the JavaScript box once the website pops up on their browser.--> 
+<!--If the viewer requests to see the stats from 2014, then the average yards per game within 2014 will be calculated for Odell Beckham Jr.'s 2014 season.--> 
+<!--The same process applies for any other year (2015, 2016 or 2017) that Odell Beckham Jr. played for the New York Giants.-->
 
             if(stat =="2014"){
                 games = season1+ season2+ season3+season4+season5;
@@ -68,32 +112,43 @@
             else if(stat=="2016"){
                 total= yard3/season3;
             
-                document.write("For his 2015 season with the giants his total average yards per game: " + total)
+                document.write("For his 2016 season with the giants his total average yards per game: " + total)
 
             }
             else if(stat=="2017"){
                 total= yard4/season4;
             
-                document.write("For his 2015 season with the giants his total average yards per game: " + total)
+                document.write("For his 2017 season with the giants his total average yards per game: " + total)
 
             }
+            
+        <!--This else statement calculates the average yards per game throughout all 5 seasons of Odell Beckham Jr.'s career with the New York Giants.-->
+        <!--The viewer can request to view the overall average yards per game of Odell Beckham Jr.'s time with the New York Giants in the JavaScript box as well.-->
+        
         else{
             games = season1+ season2+ season3+season4+season5;
                 yards = yard1+yard2+yard3+yard4+yard5;
 
                 total= yards/games;
-
+                
+                
+         <!--What the program displays to the viewer once the calculation of the average yards per game overall is calculated.-->
+     
                 document.write("For his entire career with the NY giants his total average yards per game: " + total)
 
                 
         } 
               </script>
             </h5>
-                
+        <!--Another unordered list talking about Odell Beckham Jr.'s accomplishments with the New York Giants.-->
+        
             </ul>
             <p>Throughout his time with the giants he was named to the NFL probowl for his first three seasons.</p>
             <p>the giants during that time would go on to make one playoff apearance in the 2016 season</p>
             <h5>
+            
+       <!--Calculating the yards per game for the playoff game that Odell Beckham Jr. participated in 2016.-->     
+       
             <script>
                 var playoff, yard1;
                 playoff=1;
@@ -103,7 +158,10 @@
                 document.write(" during that playoff game he would catch for a total of " +total+ " yards. ")
 
             </script>
-            
+     <!--Paragraphs going deeper into Odell Beckham Jr.'s performance stats with the New York Giants.--> 
+    <!--Explains why Odell Beckham Jr. was traded to the Cleveland Browns.-->
+    <!--Talking about Odell Beckham Jr.'s injuries; other setbacks that could have skewed Odell Beckham Jr.'s performance.-->
+    
             <p>Throughout his time with the New York Giants, Odell Beckham Jr. was named to the probowl for his first 3 seasons. <br> 
                 Odell Beckham Jr. gained a lot of experiences and he was able to create bonds and work as a team professionally. <br> 
                 The New York Giants traded Odell Beckham Jr. to the Cleveland Browns after 5 seasons, and it had nothing to do with his <br> 
@@ -118,13 +176,25 @@
                 that covers his yardage total in rushing yards could be skewed as he did <br> suffer injuries that put him out for most of multiple seasons. Odell Beckham Jr. 's yards
                 per game was once again really <br> high when he began his career with the New York Giants, but his yards per game stayed fairly even mainly within the 80's.
             </h5>
-       <!-- <P><img src="giants-catch.jpg" class="catchpic" alt="odell catch "></P>-->
+            
+     <!--Next section of the HTML webpage that covers Odell Beckham Jr.'s time with the Cleveland Browns.--> 
+     <!--Again, the section will stay together and the information will not be in the section that covers the New York Giants or the Los Angeles Rams.-->
             </div>
+            
+     <!--Football field 30 yard line.-->
+     
         <p2>30</p2>
         <hr>
         <p2>30</p2>
+        
+     <!--Cleveland Browns heading.-->  
+     
         <h3>Cleveland Browns </h3>
         <div class="two">
+        
+       <!--An unordered list that displays the years that Odell Beckham Jr. played with the Cleveland Browns for (2019-2021).-->
+       <!--Odell Beckham Jr. was traded to the Los Angeles Rams during the 2021 NFL season.-->
+       
             <ul>
                 <li>years with Cleveland Browns</li>
                 <ul>
@@ -137,9 +207,17 @@
                 
             </ul>
         <h5>
+        
+   <!--JavaScript method that shows up when the website first opens.-->
+   <!--This element asks the viewer to state a year that Odell Beckham Jr. played for the New York Giants.-->
+   <!--Once the viewer inserts a year (2019-2021), the average yards per game of Odell Beckham Jr. within that year will show up.-->
+   
             <script>
             var stat = prompt("Enter the season for the Cleveland Browns for the stats which you want to see: ")
             
+    <!--The season variable covers the number of games the Odell Beckham Jr. played for the Cleveland Browns per season.-->
+     <!--The yard variable covers the yards that Odell Beckham Jr. got per game during each NFL season for the Cleveland Browns.-->    
+     
             var games, yard1, total, season1, season2,yard2;
                 var yard2, yard3, yards;
             var test = true;
@@ -150,7 +228,11 @@
                 yard1=1035;
                 yard2=319;
                 yard3=232;
-       
+                
+ <!--These are the calculations that are carried out depending on what year the viewer inputs into the JavaScript box once the website pops up on their browser.--> 
+<!--If the viewer requests to see the stats from 2014, then the average yards per game within 2019 will be calculated for Odell Beckham Jr.'s 2019 season.--> 
+<!--The same process applies for any other year (2019, 2020 or 2021) that Odell Beckham Jr. played for the Cleveland Browns.-->
+
             if(stat =="2019"){
                 games = season1+ season2+ season3+season4+season5;
                 yards = yard1+yard2+yard3+yard4+yard5;
@@ -173,6 +255,10 @@
                 document.write("For his 2021 season with the Cleveland Browns his total average yards per game: " + total)
 
             }
+            
+        <!--This else statement calculates the average yards per game throughout all 3 seasons of Odell Beckham Jr.'s career with the Cleveland Browns.-->
+        <!--The viewer can request to view the overall average yards per game of Odell Beckham Jr.'s time with the Cleveland Browns in the JavaScript box as well.-->
+        
         else{
                 games = season1+ season2+ season3;
                 yards = yard1+yard2+yard3;
@@ -183,6 +269,10 @@
         }
                 </script>
             </h5>
+            
+   <!--Paragraphs going deeper into Odell Beckham Jr.'s performance stats with the Cleveland Browns.--> 
+    <!--Explains why Odell Beckham Jr. was traded to the Los Angeles Rams.-->
+    <!--Talking about Odell Beckham Jr.'s injuries; other setbacks that could have skewed Odell Beckham Jr.'s performance.-->       
            
            <p> During his time with the Browns, Odell Beckham Jr. did not participate in the probowl. </p>
             <p> The Browns participated in the playoffs at the end of the 2020 season, but Odell Beckham Jr. had a torn ACL. </p>
@@ -203,22 +293,39 @@
             the Cleveland Browns, which is lower than the total touches Odell Beckham Jr. had while he played for the New York Giants. <br>
             While Odell Beckham Jr. played for the New York Giants, Odell Backham had 405 touches. Odell Beckham Jr's performance with <br> 
             the Cleveland Browns stayed about the same between 2019 and 2021.</p>
+            
+     <!--Introducing the Los Angeles Rams section of Odell Beckham Jr.'s career.-->       
     </div>
+    
+    <!--40 yard football field line.-->
+    
         <p></p>
         <p2>40</p2>
         <hr>
         <p2>40</p2>
+        
+    <!--Los Angeles Rams Heading.-->
+    
         <h4>Los Angeles Rams </h4>
+        
+    <!--Keeping all information that pertains to the Los Angeles Rams in one place.-->    
        
         <div class="three">
+        
+    <!--Lists the years that Odell Beckham Jr. played with the Los Angeles Rams during his NFL career.--> 
+    <!--Odell Beckham Jr. was traded to the Los Angeles Rams from the Cleveland Browns during the 2021 NFL season.-->
+    
         <ul>
-            <li>years with giants</li>
+            <li>years with Rams</li>
             <ul>
                 <li>2021(Traded)</li>
             </ul>
                 
         </ul>
         <h5>
+        
+      <!--The season variable covers the number of games the Odell Beckham Jr. played for the Los Angeles Rams per season, but Odell Beckham Jr only played with the Los Angeles Rams for half a season.-->
+     <!--The yard variable covers the yards that Odell Beckham Jr. got per game during each NFL season for the Los Angeles Rams.-->    
         <script>
         
        
@@ -237,6 +344,11 @@
         </h5>
        
         <h5>
+        
+     <!--Paragraphs going deeper into Odell Beckham Jr.'s performance stats with the Los Angeles Rams.--> 
+    <!--Explains Odell Beckham Jr.'s experience with the Los Angeles Rams.-->
+    <!--Talking about Odell Beckham Jr.'s injuries; other setbacks that could have skewed Odell Beckham Jr.'s performance.-->       
+               
         <p>Throughout his time with the Los Angeles Rams, Odell Beckham Jr. was able to play in the playoffs in the 2021 NFL season. <br>
             Odell Beckham Jr. got hurt during the first quarter of the game and he tore his other ACL. The Los Angeles Rams also ended up <br>
            winning Superbowl LVI, defeating the Cincinatti Bengals 20 to 23. Odell Beckham Jr. was traded to the Los Angeles Rams halfway <br>
@@ -257,10 +369,17 @@
         <p> The Rams also ended up winning Superbowl LVI, defeating the Bengals 20 to 23. </p>
         <!--<p><img src="a2da170c-9d53-43a2-bf71-6aeb2d14d1bc-GTY_1370412501.webp" class="superbowl" alt="rams pic"></p>-->
     </div>
+    
+    <!--50 yard football field line.-->
+    
         <p2>50</p2>
         <hr>
         <p2>50</p2>
+    <!--Section that will compare Odell Beckham Jr. to the top 2 wide receivers in the NFL as of the beginning of the 2021 NFL season.-->
+    
         <h6>Odell compared to the rest of the league</h6>
+    <!--Paragraph that compares Odell Beckham Jr.'s 2021 NFL season performance to the 2021 NFL season performances of 2 other wide receivers.-->
+    
         <p> According to Sporting News, Odell Beckham Jr. is ranked 20 among the best wide receivers in the 2021 <br> 
             season of the NFL (par.23). When it comes to determining whether Odell Beckham Jr.'s performance in the NFL is good, <br> 
             Odell Beckham Jr.'s performance will be compared to Davante Adams of the Green Bay Packers, who is ranked 1 among the best wide receivers in the 2021 season of the NFL  <br> and Stefon Diggs of the Buffalo Bills, 
@@ -275,6 +394,9 @@
                 earned during the 2021 NFL season, Odell Beckham Jr. got an average of 38.4 yards per game during the 2021 NFL season while Davante Adams got 58.6 more yards than Odell Beckham Jr. <br>
                 and Stefon Diggs had double the amount of yards per game as Odell Beckham Jr., resulting in a gain of 33.6 yards per game.</p>
     <hr>
+    
+    <!--A site link to Odell Beckham Jr.'s statistics.-->
+    
         <a class="site"  href="https://www.pro-football-reference.com/players/B/BeckOd00.htm"> 
             Stats sites
         </a>
