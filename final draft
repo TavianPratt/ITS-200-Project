@@ -209,7 +209,7 @@
         <h5>
         
    <!--JavaScript method that shows up when the website first opens.-->
-   <!--This element asks the viewer to state a year that Odell Beckham Jr. played for the New York Giants.-->
+   <!--This element asks the viewer to state a year that Odell Beckham Jr. played for the Cleveland Browns.-->
    <!--Once the viewer inserts a year (2019-2021), the average yards per game of Odell Beckham Jr. within that year will show up.-->
    
             <script>
@@ -324,8 +324,9 @@
         </ul>
         <h5>
         
-      <!--The season variable covers the number of games the Odell Beckham Jr. played for the Los Angeles Rams per season, but Odell Beckham Jr only played with the Los Angeles Rams for half a season.-->
-     <!--The yard variable covers the yards that Odell Beckham Jr. got per game during each NFL season for the Los Angeles Rams.-->    
+      <!--The season variable covers the number of games the Odell Beckham Jr. played for the Los Angeles Rams per season, but Odell Beckham Jr. only played with the Los Angeles Rams for half a season.-->
+     <!--The yard variable covers the yards that Odell Beckham Jr. got per game during each NFL season for the Los Angeles Rams.-->  
+     
         <script>
         
        
